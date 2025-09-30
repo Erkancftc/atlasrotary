@@ -3250,10 +3250,10 @@ a:hover {
 /*=== helping-form ===*/
 .helping-area2 .helping-form {
     background-color: #901f93;
-    padding: 120px 0 120px 120px;
+    padding: 10% 12%;
     position: relative;
     z-index: 1;
-    margin-top: -361px;
+    margin-top: -55%;
 }
 .helping-area2:after {
     background-color: #901f93;
