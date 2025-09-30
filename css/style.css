@@ -4158,11 +4158,11 @@ a:hover {
     color: #fff;
     font-weight: 800;
     font-size: 26px;
-    margin-bottom: 40px;
+    margin-bottom:24px;
 }
 .contact-area .contact-detail-action .contact-item .contact__desc {
     color: #fff;
-    line-height: 30px;
+    line-height: 24px;
     font-weight: 500;
 }
 .contact-area .form-shared form .textarea {
