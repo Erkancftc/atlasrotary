@@ -1260,7 +1260,8 @@ a:hover {
     background-image:url();
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
+    background-position: center center;
+    z-index: 1;    
 }
 .breadcrumb-area .breadcrumb-content {
    text-align: center;
