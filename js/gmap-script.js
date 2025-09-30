@@ -2,8 +2,8 @@
 var map;
 map = new GMaps({
     el: '#map',
-    center: new google.maps.LatLng(40.728157, -74.077644),
-    zoom: 12,
+    center: new google.maps.LatLng(40.9693649680707, 29.05252966154232),
+    zoom: 14,
     // Google map background color style arrow on the below,
     // if you want to change the google map background style
     // then replace below arrow style with your own google map style
