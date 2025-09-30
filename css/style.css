@@ -1261,7 +1261,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    
+    z-index: 1;    
 }
 .breadcrumb-area .breadcrumb-content {
    text-align: center;
