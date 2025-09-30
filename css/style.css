@@ -3858,7 +3858,9 @@ a:hover {
 }
 
 .blog-area .recent-post-wrap .recent-item .recent__img img {
-    width: 100%;
+    width:  100%;
+    aspect-ratio: 570/354;
+    object-fit: cover;
 }
 .blog-area .recent-post-wrap .recent-item .news__content .news__content-title {
     font-size: 26px;
