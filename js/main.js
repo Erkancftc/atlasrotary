@@ -87,11 +87,11 @@ Author Email:   layerdrops@gmail.com
 
         /*==== barfiller =====*/
         $('#bar1').barfiller({ barColor: '#50bac3',  duration: 3000});
-        $('#bar2').barfiller({ barColor: '#21314F',  duration: 3000});
+        $('#bar2').barfiller({ barColor: '#17458f',  duration: 3000});
         $('#bar3').barfiller({ barColor: '#F7A50A',  duration: 3000});
         $('#bar4').barfiller({ barColor: '#901f93',  duration: 3000});
         $('#bar5').barfiller({ barColor: '#50bac3',  duration: 3000});
-        $('#bar6').barfiller({ barColor: '#21314F',  duration: 3000});
+        $('#bar6').barfiller({ barColor: '#17458f',  duration: 3000});
 
         /*==== homepage-slide1 =====*/
         $('.homepage-slide1').owlCarousel({
