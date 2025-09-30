@@ -185,8 +185,8 @@ map = new GMaps({
     ]
 });
 map.addMarker({
-    lat: 40.7173503,
-    lng: -74.0557994,
+    lat: 40.96819843365295, 
+    lng:  29.051338807229516,
     icon: "images/map-marker.png",
     animation: google.maps.Animation.BOUNCE
 });
