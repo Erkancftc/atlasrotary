@@ -1256,10 +1256,11 @@ a:hover {
     BREADCRUMB AREA
 =====================================*/
 .breadcrumb-area {
-    background-color: #f2f0ec;
-    position: relative;
-    z-index: 1;
-    color: #424242;
+   position: relative;
+    background-image:url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
 }
 .breadcrumb-area .breadcrumb-content {
    text-align: center;
