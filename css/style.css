@@ -2129,6 +2129,8 @@ a:hover {
 
 .causes-area .blog-content-wrap .blog-content .blog-item img {
     width: 100%;
+    aspect-ratio: 370/238;
+    object-fit: cover;
 }
 .causes-area .blog-content-wrap .blog-content .blog-item .blog-inner-content {
     padding: 44px 45px 50px 50px;
@@ -2146,6 +2148,7 @@ a:hover {
     -ms-transition: 0.3s ease-in;
     -o-transition: 0.3s ease-in;
     transition: 0.3s ease-in;
+    font-size: 24px;
 }
 .causes-area .blog-content-wrap .blog-content .blog-item .blog-inner-content .blog__title a:hover {
     color: #F7A50A;
