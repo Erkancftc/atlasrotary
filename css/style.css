@@ -921,15 +921,48 @@ a:hover {
     top: 0;
     left: -110px;
     z-index: -1;
-    background-color: rgba(144, 31, 147, 0.90);
+    background-color: rgb(23, 69, 143, 0.902);
     -webkit-transform: skew(-12deg,0deg);
     -moz-transform: skew(-12deg,0deg);
     -ms-transform: skew(-12deg,0deg);
     -o-transform: skew(-12deg,0deg);
     transform: skew(-12deg,0deg);
 }
+/* 1) Yalnızca video kullanılan slidelarda arka plan görselini kapat */
+.slider-area .single-slide-item.video-bg {
+    background: none !important;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* 2) Videoyu tam alan kaplat */
+  .slider-area .single-slide-item.video-bg .bgvideo {
+    position: absolute;
+    inset: 0;          /* top/right/bottom/left: 0 */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;        /* -1 KULLANMA; görünmez olur */
+    pointer-events: none; /* buton tıklamalarına engel olmasın */
+  }
+  
+  /* 3) Metin/içerik videonun üstünde kalsın */
+  .slider-area .single-slide-item.video-bg .slide-item-table {
+    position: relative;
+    z-index: 2;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .slider-area .single-slide-item.video-bg .bgvideo { display: none; }
+    .slider-area .single-slide-item.video-bg {
+      background-image: url("../images/01-halic-turkey.jpg");
+      background-size: cover; background-position: center;
+    }
+  }
+  
+  
 .slider-area .slide-bg1 {
-    background-image: url("../images/01-halic-turkey.jpg");
+    
+    /* background-image: url("../images/01-halic-turkey.jpg"); */
 }
 .slider-area .slide-bg2 {
     background-image: url("../images/02-turkish-family.jpg");
@@ -1618,7 +1651,7 @@ a:hover {
     top: 0;
     left: 0;
     z-index: -1;
-    background: #e5f5f6;
+    background: #f7a81b;
 }
 .service-area .service-wrap .service-item .service-item-inner .service-icon:after {
     -webkit-transform-origin: bottom left;
@@ -1631,15 +1664,27 @@ a:hover {
 }
 .service-area .service-wrap .service-item2 .service-item-inner .service-icon:before,
 .service-area .service-wrap .service-item2 .service-item-inner .service-icon:after {
-    background-color: #fbe9e6;
+    background-color: #b9d9eb;
 }
 .service-area .service-wrap .service-item3 .service-item-inner .service-icon:before,
 .service-area .service-wrap .service-item3 .service-item-inner .service-icon:after {
-    background-color: #fdf3e3;
+    background-color: #c6bcd0;
 }
 .service-area .service-wrap .service-item4 .service-item-inner .service-icon:before,
 .service-area .service-wrap .service-item4 .service-item-inner .service-icon:after {
-    background-color: #f3ebf7;
+    background-color: #a7aca2;
+}
+.service-area .service-wrap .service-item5 .service-item-inner .service-icon:before,
+.service-area .service-wrap .service-item5 .service-item-inner .service-icon:after {
+    background-color: #17458f;
+}
+.service-area .service-wrap .service-item6 .service-item-inner .service-icon:before,
+.service-area .service-wrap .service-item6 .service-item-inner .service-icon:after {
+    background-color: #d9c89e;
+}
+.service-area .service-wrap .service-item7 .service-item-inner .service-icon:before,
+.service-area .service-wrap .service-item7 .service-item-inner .service-icon:after {
+    background-color: #f7a81b;
 }
 .service-area .service-wrap .service-item .service-item-inner .service-content {
     padding-right: 35px;
