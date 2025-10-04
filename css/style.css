@@ -4658,7 +4658,7 @@ a:hover {
     -ms-transition: 0.3s ease;
     -o-transition: 0.3s ease;
     transition: 0.3s ease;
-    text-transform: capitalize;
+    text-transform: none;
 }
 .footer-area .footer-widget-wrap .footer-item a:hover {
     color: #F7A50A;
