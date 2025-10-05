@@ -1797,7 +1797,7 @@ a:hover {
     position: absolute;
     content: '';
     top: 0;
-    margin-top: -8%;
+    margin-top: -4%;
     right: 0;
     width: 50%;
     height: 120%;
@@ -1847,7 +1847,6 @@ a:hover {
     background: #17418B;          /* arka plan yoksa yazı kaybolmasın */
   border-radius: 12px;
   padding: clamp(16px, 4vw, 24px);
-  height: 6cm;
 }
 .mixer-area2 .fun-content-slide .fun-slide-item .icon-quote {
     font-size: clamp(36px, 10vw, 72px);
@@ -1866,8 +1865,8 @@ a:hover {
   
   
 .mixer-area2 .fun-content-slide .fun-slide-item .funslide__text {
-    font-size: clamp(18px, 4.2vw, 32px);
-    line-height: clamp(26px, 6vw, 44px);
+    font-size: clamp(18px, 4.2vw, 40px);
+    line-height: clamp(26px, 6vw, 56px);
     color: #fff;
     font-weight: 700;
     margin-bottom: clamp(px, 3.5vw, 24px);
@@ -1894,7 +1893,7 @@ a:hover {
       padding: 16px !important; /* daha sıkı iç boşluk */
     }
     .mixer-area2 .fun-content-slide .fun-slide-item {
-      padding: 16px;
+      padding: 16px 16px 64px 16px;
     }
   }
 /*=== mixer owl-dots ===*/
