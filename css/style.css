@@ -95,9 +95,9 @@
 }
 body {
     font-family: 'Open Sans','Georgia', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
-    color: #818181;
+    color: #545454;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -959,10 +959,102 @@ a:hover {
     }
   }
   
-  
+.blog-img {
+    position: relative;
+}
+
+.blog_tag {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+/* oran + kırpma konteynerde */
+.event-gallery {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    position: relative;
+}
+
+/* NAV KATMANI */
+.event-gallery .owl-nav {
+    position: absolute !important;
+        width: 64px !important;
+        height: 64px !important;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.6) !important;
+        border: none !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+}
+
+/* img konteyneri doldursun */
+.event-gallery img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+/* 👈 SOL OK */
+.event-gallery .owl-prev {
+    left: 30px !important;
+}
+
+/* 👉 SAĞ OK */
+.event-gallery .owl-next {
+    right: 30px !important;
+}
+
+/* OK İKONLARI */
+.event-gallery .owl-nav span {
+    font-size: 34px !important;
+    color: #fff !important;
+    line-height: 1;
+}
+
+.blog-img {
+    position: relative;
+}
+
+/* Etiket şerit gibi */
+.blog_tag {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    transform: translateX(-50%);
+    z-index: 20;
+
+    display: inline-block;
+    padding: 10px 22px;
+    background: #2c7bc4;
+    /* temadaki maviye yakın */
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+/* İç yazılar tek satır */
+.blog_tag .date__num-text,
+.blog_tag .date__mon-text {
+    color: inherit;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.blog_tag .date__num-text {
+    margin-right: 6px;
+}
+
+
 .slider-area .slide-bg1 {
     
-    /* background-image: url("../images/01-halic-turkey.jpg"); */
+    background-image: url("../images/banner/duyu-butunleme.jpg");
 }
 .slider-area .slide-bg2 {
     background-image: url("../images/02-turkish-family.jpg");
@@ -1564,6 +1656,48 @@ a:hover {
 .hiw-area .hiw-item .hiw-item-img-box:hover .hiw-btn-box .theme-btn:after {
     background-color: #17458f;
 }
+
+
+/* Galeri mutlaka referans olsun */
+.event-gallery {
+  position: relative;
+}
+
+/* Nav katmanı en üstte ve tıklanabilir */
+.event-gallery .owl-nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  z-index: 9999;
+}
+
+/* Butonlara gerçek alan ver */
+.event-gallery .owl-nav button {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(0,0,0,.55) !important;
+  cursor: pointer;
+  pointer-events: auto !important;
+}
+
+/* Sol/sağ konum */
+.event-gallery .owl-prev { left: 18px; }
+.event-gallery .owl-next { right: 18px; }
+
+/* İç ikon */
+.event-gallery .owl-nav button span,
+.event-gallery .owl-nav button i,
+.event-gallery .owl-nav button {
+  color: #fff !important;
+  font-size: 34px;
+  line-height: 52px;
+}
+
 /*===================================
     SERVICE AREA
 =====================================*/
@@ -1643,7 +1777,7 @@ a:hover {
 }
 .service-area .service-wrap .service-item .service-item-inner .service-icon:before,
 .service-area .service-wrap .service-item .service-item-inner .service-icon:after {
-    content: "";
+   
     position: absolute;
     display: block;
     width: 45px;
@@ -1919,7 +2053,7 @@ a:hover {
     filter: alpha(opacity=40);
     position: relative;
     border: none;
-    padding: ;
+   
     -webkit-transition: 0.3s ease-in;
     -moz-transition: 0.3s ease-in;
     -ms-transition: 0.3s ease-in;
