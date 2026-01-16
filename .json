@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "version": "1.0",
+    "language": "tr",
+    "generatedAt": "2026-01-16"
+  },
+  "events": [
+    {
+      "id": 1,
+      "title": "Duyu Bütünleme Merkezi Açılışı",
+      "slug": "duyu-butunleme-merkezi-acilisi",
+      "status": "active",
+      "date": {
+        "day": "03",
+        "month": "Aralık",
+        "year": "2025",
+        "time": "09:00 – 12:00"
+      },
+      "category": "Engelli Bireyler",
+      "organizer": "Atlas Rotary Kulübü",
+      "contact": {
+        "phone": "0216 570 50 00",
+        "website": "https://atlasrotary.org"
+      },
+      "location": {
+        "address": "Küçükbakkalköy Mahallesi, Koca Sinan Caddesi, Evlice Sokak, No:1",
+        "mapEmbedSrc": "https://www.google.com/maps/embed?pb=!1m18!..."
+      },
+      "heroImage": "images/events/duyu-butunleme/banner.jpg",
+      "gallery": ["images/duyu-butunleme/01.jpg", "images/duyu-butunleme/02.jpg", "images/duyu-butunleme/03.jpg"],
+      "content": [
+        {
+          "heading": "Duyu Bütünleme Merkezi Açılışı",
+          "paragraphs": [
+            "Toplumun farklı kesimlerine yönelik sosyal projeler üretmeye devam eden Atlas Rotary Kulübü, Ataşehir Belediyesi iş birliğiyle Duyu Bütünleme Merkezi’nin açılışını gerçekleştirdi.",
+            "Merkez, özel gereksinimli çocukların gelişimine katkı sağlayacak modern altyapıya sahiptir."
+          ]
+        },
+        {
+          "heading": "Atlas Rotary Kulübü’nün Sosyal Yaklaşımı",
+          "paragraphs": ["Her çocuk aynı yeteneklere ve imkânlara sahip değildir. Bu bilinçle hareket eden kulübümüz, sosyal sorumluluk projelerini sürdürülebilir şekilde hayata geçirmektedir.", "Projeye katkı sağlayan tüm paydaşlara teşekkür ederiz."]
+        }
+      ],
+      "sidebar": {
+        "title": "Ataşehir Belediyesi Sosyal Hizmetler Müdürlüğü",
+        "items": [
+          { "label": "Saat", "value": "09:00 – 12:00" },
+          { "label": "Tarih", "value": "03 Aralık 2025" },
+          { "label": "Kategori", "value": "Engelli Bireyler" },
+          { "label": "İletişim", "value": "0216 570 50 00" },
+          { "label": "Website", "value": "atlasrotary.org" },
+          { "label": "Yer", "value": "Ataşehir / İstanbul" }
+        ]
+      },
+      "seo": {
+        "title": "Duyu Bütünleme Merkezi Açılışı | Atlas Rotary",
+        "description": "Atlas Rotary Kulübü tarafından gerçekleştirilen Duyu Bütünleme Merkezi açılışı etkinliği.",
+        "keywords": ["rotary", "duyu bütünleme", "sosyal sorumluluk"]
+      }
+    },
+
+    {
+      "id": 2,
+      "title": "Gençlerle Liderlik Atölyesi",
+      "slug": "genclerle-liderlik-atolyesi",
+      "status": "active",
+      "date": {
+        "day": "18",
+        "month": "Ocak",
+        "year": "2026",
+        "time": "14:00 – 17:00"
+      },
+      "category": "Eğitim",
+      "organizer": "Atlas Rotary Kulübü",
+      "contact": {
+        "phone": "0216 570 50 00",
+        "website": "https://atlasrotary.org"
+      },
+      "location": {
+        "address": "Ataşehir Rotary Eğitim Salonu",
+        "mapEmbedSrc": "https://www.google.com/maps/embed?pb=!1m18!..."
+      },
+      "heroImage": "images/events/liderlik/banner.jpg",
+      "gallery": ["images/liderlik/01.jpg", "images/liderlik/02.jpg"],
+      "content": [
+        {
+          "heading": "Gençlerle Liderlik Atölyesi",
+          "paragraphs": ["Gençlerin liderlik becerilerini geliştirmeyi hedefleyen bu atölye çalışması interaktif olarak düzenlenmiştir.", "Katılımcılar iletişim, problem çözme ve takım çalışması üzerine uygulamalı eğitim almıştır."]
+        }
+      ],
+      "sidebar": {
+        "title": "Atlas Rotary Kulübü",
+        "items": [
+          { "label": "Saat", "value": "14:00 – 17:00" },
+          { "label": "Tarih", "value": "18 Ocak 2026" },
+          { "label": "Kategori", "value": "Eğitim" }
+        ]
+      },
+      "seo": {
+        "title": "Gençlerle Liderlik Atölyesi | Atlas Rotary",
+        "description": "Atlas Rotary Kulübü gençlere yönelik liderlik atölyesi düzenledi.",
+        "keywords": ["liderlik", "gençlik", "eğitim"]
+      }
+    }
+  ]
+}
