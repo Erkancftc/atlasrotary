@@ -912,12 +912,13 @@ a:hover {
 .slider-area .single-slide-item {
   background-color: #eee;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   color: #fff;
   height: 840px;
   position: relative;
   z-index: 1;
   overflow: hidden;
+  background-repeat: no-repeat;
 }
 .slider-area .single-slide-item:after {
   content: "";
