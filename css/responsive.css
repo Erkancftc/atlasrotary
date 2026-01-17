@@ -26,7 +26,7 @@
 
 @media (max-width:1366px) {
     .slider-area .single-slide-item:after {
-        width: 579px;
+        width: 65%;
     }
     .slider-area .homepage-slide1 .owl-dots {
         right: 60px;
@@ -38,7 +38,7 @@
 
 @media (max-width:1280px) {
     .slider-area .single-slide-item:after {
-        width: 535px;
+        width: 65%;
     }
     .entry-area:after {
         width: 417px;
@@ -82,7 +82,7 @@
         background-color: rgba(255, 255, 255, 0.6);
     }
     .slider-area .single-slide-item:after {
-        width: 513px;
+        width: 65%;
     }
     .entry-area:after {
         width: 396px;
@@ -147,7 +147,7 @@
         line-height: 80px;
     }
     .slider-area .single-slide-item:after {
-        width: 423px;
+        width: 65%;
     }
     .entry-area:after {
         width: 306px;
@@ -219,7 +219,7 @@
         height: 500px;
     }
     .slider-area .single-slide-item:after {
-        width: 408px;
+        width: 65%;
     }
     .slider-area .single-slide-item .col-md-7 {
         -ms-flex: 0 0 100%;
@@ -434,8 +434,8 @@
         max-width: 100%;
     }
     .slider-area .slider-heading .slider__title {
-        font-size: 54px;
-        line-height: 64px;
+        font-size: 32px;
+        line-height: 48px;
     }
     .hiw-area .col,
     .service-area .col {
@@ -586,8 +586,8 @@
         height: 350px;
     }
     .slider-area .slider-heading .slider__title {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 24px;
+        line-height: 32px;
     }
     .slider-area2 .single-slide-item {
         height: 600px;
@@ -604,8 +604,8 @@
         height: 330px;
     }
     .slider-area .slider-heading .slider__title {
-        font-size: 35px;
-        line-height: 40px;
+       font-size: 24px;
+        line-height: 32px;
     }
     .slider-area2 .single-slide-item {
         height: 550px;
@@ -778,8 +778,8 @@
         height: 310px;
     }
     .slider-area .slider-heading .slider__title {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 16px;
+        line-height: 24px;
     }
     .slider-area2 .single-slide-item {
         height: 500px;
