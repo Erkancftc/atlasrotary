@@ -215,6 +215,9 @@
     .header-area .header-top-action .top-action-content .info-box-2 {
         padding-top: 0;
     }
+    .slider-area .single-slide-item {
+        height: 500px;
+    }
     .slider-area .single-slide-item:after {
         width: 408px;
     }
@@ -517,8 +520,9 @@
 /*-----------------------------
     575px
 ------------------------------*/
-@media (max-width:575px) {
-    .header-area .header-top-action .top-action-content:before {
+@media (max-width:575px) {    .slider-area .single-slide-item {
+        height: 420px;
+    }    .header-area .header-top-action .top-action-content:before {
         display: none;
     }
     .header-area .header-top-action .top-action-content:after {
@@ -579,14 +583,14 @@
 ------------------------------*/
 @media (max-width:480px) {
     .slider-area .single-slide-item {
-        height: auto;
+        height: 350px;
     }
     .slider-area .slider-heading .slider__title {
         font-size: 32px;
         line-height: 40px;
     }
     .slider-area2 .single-slide-item {
-        height: 1024px;
+        height: 600px;
     }
     .give-area .give-title-box .section__title {
         font-size: 40px;
@@ -597,14 +601,14 @@
 ------------------------------*/
 @media (max-width:425px) {
     .slider-area .single-slide-item {
-        height: auto;
+        height: 330px;
     }
     .slider-area .slider-heading .slider__title {
         font-size: 35px;
         line-height: 40px;
     }
     .slider-area2 .single-slide-item {
-        height: 1024px;
+        height: 550px;
     }
     .entry-area:after {
         height: 230px;
@@ -771,14 +775,14 @@
         margin-right: 15px;
     }
     .slider-area .single-slide-item {
-        height: auto;
+        height: 310px;
     }
     .slider-area .slider-heading .slider__title {
         font-size: 30px;
         line-height: 40px;
     }
     .slider-area2 .single-slide-item {
-        height: 1024px;
+        height: 500px;
     }
     .breadcrumb-area .breadcrumb-content .breadcrumb__list2 {
         padding-right: 10px;
