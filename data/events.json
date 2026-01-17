@@ -8,7 +8,7 @@
     {
       "id": 1,
       "title": "Duyu Bütünleme Merkezi Açılışı",
-      "slug": "events-detail.html?slug=duyu-butunleme-merkezi-acilisi?slug=duyu-butunleme-merkezi-acilisi",
+      "slug": "duyu-butunleme-merkezi-acilisi",
       "status": "active",
       "date": {
         "day": "03",
@@ -27,7 +27,7 @@
         "mapEmbedSrc": "https://www.google.com/maps/embed?pb=!1m18!..."
       },
       "heroImage": "images/events/duyu-butunleme/banner.jpg",
-      "gallery": ["images/duyu-butunleme/01.jpg", "images/duyu-butunleme/02.jpg", "images/duyu-butunleme/03.jpg"],
+      "gallery": ["images/duyu-butunleme/01.jpg", "images/duyu-butunleme/02.jpg", "images/duyu-butunleme/03.jpg", "images/duyu-butunleme/04.jpg", "images/duyu-butunleme/05.jpg", "images/duyu-butunleme/06.jpg", "images/duyu-butunleme/07.jpg", "images/duyu-butunleme/08.jpg", "images/duyu-butunleme/09.jpg"],
       "content": [
         {
           "heading": "Duyu Bütünleme Merkezi Açılışı",
@@ -62,12 +62,12 @@
     {
       "id": 2,
       "title": "İstanbul Atlas Rotary Kulübü Olağan Toplantımız",
-      "slug": "Olagan-toplantı-kasim",
+      "slug": "olagan-toplantı-kasim",
       "status": "active",
       "date": {
         "day": "11",
         "month": "Kasım",
-        "year": "2026",
+        "year": "2025",
         "time": "19:00 – 21:00"
       },
       "category": "Eğitim",

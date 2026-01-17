@@ -277,6 +277,7 @@ a:hover {
   line-height: 32px;
   position: relative;
   z-index: 2;
+  display: none;
 }
 .header-area .header-top-action .top-action-content {
   background: #424242;
@@ -901,6 +902,11 @@ a:hover {
 }
 .header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li .dropdown-menu-item li a {
   color: #818181;
+}
+
+
+.site-branding{
+  height: 25%;
 }
 /*===================================
         SLIDER AREA
