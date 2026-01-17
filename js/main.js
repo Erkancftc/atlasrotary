@@ -56,7 +56,7 @@ Author Email:   layerdrops@gmail.com
     $(window).on("scroll", function () {
       //header fixed animation and control
       if ($(window).scrollTop() > 100) {
-        $(".header-top").addClass("header-fixed");
+        $(".header-top").removeClass("header-fixed");
       } else {
         $(".header-top").removeClass("header-fixed");
       }

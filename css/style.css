@@ -1392,13 +1392,14 @@ a:hover {
   background-image: url();
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   z-index: 1;
+  height: 40vh;
 }
 .breadcrumb-area .breadcrumb-content {
   text-align: center;
   position: relative;
-  padding-top: 110px;
+  padding-top: clamp(60px, 28vh, 380px) !important;
   padding-bottom: 115px;
 }
 .breadcrumb-area .breadcrumb-content .breadcrumb__title {
