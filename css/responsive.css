@@ -219,7 +219,7 @@
         height: 500px;
     }
     .slider-area .single-slide-item:after {
-        width: 65%;
+        width: 80%;
     }
     .slider-area .single-slide-item .col-md-7 {
         -ms-flex: 0 0 100%;
