@@ -61,14 +61,14 @@
 
     {
       "id": 2,
-      "title": "Gençlerle Liderlik Atölyesi",
-      "slug": "genclerle-liderlik-atolyesi",
+      "title": "İstanbul Atlas Rotary Kulübü Olağan Toplantımız",
+      "slug": "Olagan-toplantı-kasim",
       "status": "active",
       "date": {
-        "day": "18",
-        "month": "Ocak",
+        "day": "11",
+        "month": "Kasım",
         "year": "2026",
-        "time": "14:00 – 17:00"
+        "time": "19:00 – 21:00"
       },
       "category": "Eğitim",
       "organizer": "Atlas Rotary Kulübü",
