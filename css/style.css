@@ -1937,8 +1937,8 @@ a:hover {
 =====================================*/
 .mixer-area {
   position: relative;
-  z-index: 1;
-  background-image: url("../images/anitkabir-mausoleum.jpg");
+
+  background-image: url("../images/rotary-index.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -2138,7 +2138,7 @@ a:hover {
     MIXER AREA 3
 =====================================*/
 .mixer-area3 {
-  background-image: url("../images/kalplere-dokunan.jpg");
+  background-image: url("../images/rotary-index.jpg");
 }
 .mixer-area3:after {
   background-color: rgba(66, 66, 66, 0.8);
@@ -2233,8 +2233,8 @@ a:hover {
     ABOUT AREA
 =====================================*/
 .about-area {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .about-area .about-large-img {
   margin-bottom: 60px;
@@ -2250,6 +2250,7 @@ a:hover {
   line-height: 30px;
   margin-top: 45px;
 }
+
 /*===================================
     FAQ AREA
 =====================================*/
@@ -3516,14 +3517,14 @@ a:hover {
 }
 /*=== helping-form ===*/
 .helping-area2 .helping-form {
-  background-color: #901f93;
+  background-color: #25488d;
   padding: 10% 12%;
   position: relative;
   z-index: 1;
   margin-top: -55%;
 }
 .helping-area2:after {
-  background-color: #901f93;
+  background-color: #25488d;
   margin-top: -261px;
   height: 954px;
 }
@@ -4257,7 +4258,7 @@ a:hover {
   top: 0;
   right: 0;
   z-index: -1;
-  background-color: #901f93;
+  background-color: #f7a50a;
   -webkit-transform-origin: bottom left;
   transform-origin: bottom left;
   -webkit-transform: skew(-12deg, 0deg);
@@ -5010,4 +5011,126 @@ a:hover {
   right: 30px;
   opacity: 1;
   visibility: visible;
+}
+/* =========================================================
+   PAGE CONTENT (About metin alanı)
+   DOM:
+   <section id="page-content">
+     <div class="layout-container">
+       <div class="u-container u-width-12">
+         <p class="heading-h2-alternate mobil-text">...</p>
+         <p>...</p>
+         <ul>...</ul>
+         <p>...</p>
+         <h4>...</h4>
+         ...
+       </div>
+     </div>
+   </section>
+   ========================================================= */
+
+/* Bölüm aralığı */
+#page-content {
+  padding: 60px 0;
+}
+
+/* İçeriği okunabilir bir sütuna kilitle */
+#page-content .u-container.u-width-12 {
+  max-width: 980px; /* istersen 880px/1100px deneyebilirsin */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* İlk elemanın (genelde büyük paragraf) üst boşluğunu sıfırla */
+#page-content .u-container.u-width-12 > :first-child {
+  margin-top: 0 !important;
+}
+
+/* Paragraflar + listeler: ritim ve okunabilirlik */
+#page-content .u-container.u-width-12 p,
+#page-content .u-container.u-width-12 ul {
+  margin: 54px 0;
+  line-height: 1.85;
+  font-size: 20px;
+}
+
+/* Liste: içeri girinti ve madde aralığı */
+#page-content .u-container.u-width-12 ul {
+  padding-left: 22px;
+}
+
+#page-content .u-container.u-width-12 li {
+  margin: 10px 0;
+  line-height: 1.75;
+}
+
+/* === UL için madde işaretlerini geri getir === */
+#page-content .u-container.u-width-12 ul {
+  list-style-type: disc; /* klasik yuvarlak bullet */
+  list-style-position: inside; /* text ile hizalı görünmesi için */
+  padding-left: 22px; /* sen zaten vermişsin, uyumlu */
+}
+
+/* LI için ekstra netlik */
+#page-content .u-container.u-width-12 li {
+  display: list-item; /* bazı temalar bunu bozuyor */
+}
+
+/* Büyük üst metin (senin p.heading-h2-alternate.mobil-text’in) */
+#page-content .u-container.u-width-12 .heading-h2-alternate {
+  font-size: 28px;
+  line-height: 1.35;
+  font-weight: 600;
+  margin: 0 0 26px;
+}
+
+/* Ortalanmış üst metin */
+#page-content .u-container.u-width-12 .mobil-text {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Alt başlıklar (Misyonumuz / Vizyonumuz gibi) */
+#page-content .u-container.u-width-12 h3,
+#page-content .u-container.u-width-12 h4,
+#page-content .u-container.u-width-12 h5 {
+  margin: 34px 0 10px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+/* Başlıkların hemen arkasındaki paragrafı biraz sıkılaştır */
+#page-content .u-container.u-width-12 h3 + p,
+#page-content .u-container.u-width-12 h4 + p,
+#page-content .u-container.u-width-12 h5 + p {
+  margin-top: 10px;
+}
+
+/* Mobil uyum */
+@media (max-width: 640px) {
+  #page-content {
+    padding: 40px 0;
+  }
+
+  #page-content .u-container.u-width-12 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #page-content .u-container.u-width-12 .heading-h2-alternate {
+    font-size: 20px;
+    line-height: 1.45;
+    margin-bottom: 18px;
+  }
+
+  #page-content .u-container.u-width-12 p,
+  #page-content .u-container.u-width-12 ul {
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 14px 0;
+  }
 }
