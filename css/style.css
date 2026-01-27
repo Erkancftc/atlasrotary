@@ -1635,7 +1635,10 @@ a:hover {
     HIW-AREA
 =====================================*/
 .hiw-area {
-  padding-top: 120px;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 .hiw-area .row {
   margin-left: -10px;
@@ -1756,7 +1759,7 @@ a:hover {
   height: 100%;
   z-index: 1;
   padding-top: 90px;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 /*=== heart-icon ===*/
 .service-area .heart-icon {
@@ -4803,13 +4806,12 @@ a:hover {
   margin-bottom: 0;
 }
 .newsletter-area .newsletter-form .form-shared form .form-group .form-control {
-  background-color: #343434;
   color: #bfbfbf;
 }
 .newsletter-area .newsletter-form .form-shared form .submit__btn,
 .newsletter-area .newsletter-form .form-shared form .submit__btn:after {
   margin-top: 0;
-  background-color: #17458f;
+  background-color: #0066af;
 }
 .newsletter-area .newsletter-form .form-shared form .submit__btn:hover,
 .newsletter-area .newsletter-form .form-shared form .submit__btn:hover:after {
@@ -4818,7 +4820,7 @@ a:hover {
 
 /*==== footer-area ===*/
 .footer-area {
-  background-image: url("../images/footer-bg.jpg");
+  background-color: #17418b;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
