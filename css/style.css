@@ -3933,7 +3933,7 @@ a:hover {
   left: 0;
   right: 40px;
   z-index: -1;
-  background-color: #00a2e0;
+  background-color: #17458f;
 }
 .team-area .team-content-wrap .team-item .team__title:after {
   right: 21px;
@@ -3968,11 +3968,11 @@ a:hover {
 }
 .team-area .team-content-wrap .team-item3 .team__title:before,
 .team-area .team-content-wrap .team-item3 .team__title:after {
-  background-color: #f7a50a;
+  background-color: #17458f;
 }
 .team-area .team-content-wrap .team-item4 .team__title:before,
 .team-area .team-content-wrap .team-item4 .team__title:after {
-  background-color: #901f93;
+  background-color: #17458f;
 }
 /*=============================
    TEAM AREA 2
