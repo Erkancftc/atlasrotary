@@ -1038,11 +1038,16 @@ a:hover {
 }
 
 /* img konteyneri doldursun */
-.event-gallery img {
+.event-gallery {
+  position: relative;
+  overflow: visible;
+}
+
+.event-gallery .owl-item img {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* 👈 SOL OK */
