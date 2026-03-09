@@ -1637,6 +1637,21 @@ a:hover {
   font-weight: 400;
   margin-bottom: 15px;
 }
+
+.entry-area .entry-static-wrap .entry-static-box .entry-video-img .video-play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.entry-area .entry-static-wrap .entry-static-box .entry-video-img .video-play-btn img,
+.entry-area .entry-static-wrap .entry-static-box .entry-video-img .video-play-btn .play-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  object-fit: contain;
+}
 @media (max-width: 767px) {
   .entry-area {
     padding-top: 16px;
