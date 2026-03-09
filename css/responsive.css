@@ -948,6 +948,38 @@
     .event-gallery .owl-next {
         right: 10px !important;
     }
+    @media (max-width: 768px) {
+  .blog-img,
+  .blog-item,
+  .event-gallery,
+  .event-gallery .owl-stage-outer,
+  .event-gallery .owl-stage,
+  .event-gallery .owl-item {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    aspect-ratio: auto !important;
+  }
+
+  .blog-img,
+  .blog-item,
+  .event-gallery,
+  .event-gallery .owl-stage-outer,
+  .event-gallery .owl-stage,
+  .event-gallery .owl-item {
+    overflow: visible !important;
+  }
+
+  .event-gallery img,
+  .event-gallery .owl-item img,
+  .blog-img img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+    display: block !important;
+  }
+}
 }
 
 /* Small Mobile Devices (max-width: 480px) */

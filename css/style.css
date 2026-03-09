@@ -1038,6 +1038,7 @@ a:hover {
 }
 
 /* img konteyneri doldursun */
+/* Masaüstü */
 .event-gallery {
   position: relative;
   overflow: visible;
@@ -1048,6 +1049,16 @@ a:hover {
   height: auto;
   display: block;
   object-fit: contain;
+}
+
+
+/* Mobil */
+@media (max-width: 768px) {
+  .blog-img {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
 }
 
 /* 👈 SOL OK */
