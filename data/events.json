@@ -180,5 +180,61 @@
         "keywords": ["Sakın Geç Kalma Erken Gel", "müzikli tiyatro gösterimi", "İstanbul Atlas Rotary", "Rotary sosyal sorumluluk", "Caddebostan Kültür Merkezi", "Rotary etkinlikleri", "sanat ve sosyal sorumluluk"]
       }
     }
+    {
+      "id": 4,
+      "title": "BİR ÖMÜRLÜK DÖNÜŞÜM",
+      "slug": "bir-omurluk-donusum",
+      "status": "active",
+      "date": {
+        "day": "26",
+        "month": "Mart",
+        "year": "2026",
+        "time": "19:00 – 21:30"
+      },
+      "category": "Etkinlik",
+      "organizer": "İstanbul Atlas Rotary Kulübü, Kadıköy Belediyesi",
+      "contact": {
+        "phone": "+90 530 830 53 03",
+        "website": "https://atlasrotary.org"
+      },
+      "location": {
+        "address": "Kadıköy Evlenme Dairesi",
+        "mapEmbedSrc": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4485.987599438107!2d29.0363580127341!3d40.99084987123357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab8715cd98a4b%3A0xa523d695dac6cf16!2sKad%C4%B1k%C3%B6y%20Belediyesi%20Evlendirme%20Dairesi!5e1!3m2!1str!2str!4v1772840243862!5m2!1str!2str\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      },
+      "heroImage": "images/etkinlikler/etkinlik-04.jpg",
+      "gallery": ["images/etkinlikler/etkinlik-04.jpg"],
+
+      "content": [
+        {
+          "heading": "BİR ÖMÜRLÜK DÖNÜŞÜM",
+          "paragraphs": ["“Bir Ömürlük Dönüşüm” projesi; belediyemiz bünyesinde hizmet alan yaşlı bireylerin aktif katılımıyla gerçekleştirilecek olup, kadın emeğini tasarım ve üretimde destekleyerek, çevre bilinci ve farkındalığına dikkat çekerek, kuşaklararası etkileşimi güçlendiren, Devlet kuruluşları ile iş birliği oluşturarak kültürel hafızayı görünür kılan ve sürdürülebilirlik bilincini artırmayı hedefleyen çok disiplinli bir kültür ve sanat çalışmasıdır."]
+        },
+
+        {
+          "heading": "Katılımcılar",
+          "paragraphs": [
+            "Üyemiz, Devlet Sanatçısı Özlem Abacı’nın sanat yönetmenliğinde sahnelenen oyunda; Kreata Kadın Topluluğu, Fenerbahçe Rotary Kulübü, Kozyatağı Rotary Kulübü, Marmara Rotary Kulübü ve Suadiye Rotary Kulübü iş birliği yapmıştır. Geniş katılım ve güçlü dayanışma ile gerçekleştirilen proje, Rotary kulüpleri arasındaki iş birliğinin güzel bir örneğini oluşturmuştur."
+          ]
+        },
+
+        {
+          "heading": " 'Sakın Geç Kalma Erken Gel' Caddebostan’da Yeniden Sahnelendi",
+          "paragraphs": ["Oyun, 20 Kasım 2025 tarihinde Caddebostan Kültür Merkezi’nde ikinci kez sahnelenerek sanat ve sosyal sorumluluğu bir araya getiren anlamlı bir buluşmaya daha ev sahipliği yapmıştır."]
+        }
+      ],
+      "sidebar": {
+        "title": "İstanbul Atlas Rotary Kulübü ",
+        "items": [
+          { "label": "Saat", "value": "19:30 – 21:30" },
+          { "label": "Tarih", "value": "20 Kasım 2025" },
+          { "label": "Kategori", "value": "Müzikli Tiyatro Gösterimi" }
+        ]
+      },
+      "seo": {
+        "title": "Sakın Geç Kalma Erken Gel | Müzikli Tiyatro Gösterimi | İstanbul Atlas Rotary",
+        "description": "‘Sakın Geç Kalma Erken Gel’ müzikli tiyatro oyunu, Duyu Bütünleme Merkezi’ne katkı sağlamak amacıyla İstanbul Atlas Rotary Kulübü öncülüğünde sahnelendi. Gösterim, 20 Kasım 2025’te Caddebostan Kültür Merkezi’nde ikinci kez izleyiciyle buluştu.",
+        "keywords": ["Sakın Geç Kalma Erken Gel", "müzikli tiyatro gösterimi", "İstanbul Atlas Rotary", "Rotary sosyal sorumluluk", "Caddebostan Kültür Merkezi", "Rotary etkinlikleri", "sanat ve sosyal sorumluluk"]
+      }
+    }
   ]
 }
