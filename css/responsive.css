@@ -961,15 +961,6 @@
     aspect-ratio: auto !important;
   }
 
-  .blog-img,
-  .blog-item,
-  .event-gallery,
-  .event-gallery .owl-stage-outer,
-  .event-gallery .owl-stage,
-  .event-gallery .owl-item {
-    overflow: visible !important;
-  }
-
   .event-gallery img,
   .event-gallery .owl-item img,
   .blog-img img {
