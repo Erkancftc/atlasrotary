@@ -104,7 +104,6 @@ async function fetchEvents() {
 
 
 function createCard(ev) {
-  console.log(ev.id);
   const card = document.createElement("div");
   card.className = "col-lg-4 event-card-fade-in";
   card.innerHTML = `
