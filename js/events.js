@@ -6,6 +6,82 @@
 
 const blogContent = document.querySelector(".blog-content-wrap");
 const EVENTS_URL = "data/events.json";
+const ITEMS_PER_LOAD = 6;
+
+let allEvents = [];
+let displayedCount = 0;
+let isLoading = false;
+
+// Create loading spinner
+const loadingSpinner = document.createElement("div");
+loadingSpinner.id = "events-loading-spinner";
+loadingSpinner.innerHTML = `
+  <div class="spinner-container">
+    <div class="spinner"></div>
+    <p>Loading more events...</p>
+  </div>
+`;
+loadingSpinner.style.cssText = `
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+`;
+document.body.appendChild(loadingSpinner);
+
+// Add spinner styles
+const style = document.createElement("style");
+style.textContent = `
+  #events-loading-spinner .spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  #events-loading-spinner .spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f0f0f0;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  #events-loading-spinner p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .event-card-fade-in {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+`;
+document.head.appendChild(style);
 /**
  * Fetch events.json and return array of event objects.
  * @returns {Promise<Array>} events
@@ -30,7 +106,7 @@ async function fetchEvents() {
 function createCard(ev) {
   console.log(ev.id);
   const card = document.createElement("div");
-  card.className = "col-lg-4";
+  card.className = "col-lg-4 event-card-fade-in";
   card.innerHTML = `
     <div class="blog-content">
       <div class="blog-item blog-item1">
@@ -86,12 +162,48 @@ function sortCards(events) {
   });
 }
 
+/**
+ * Load and display more events (6 at a time).
+ */
+function loadMoreEvents() {
+  if (isLoading || displayedCount >= allEvents.length) return;
+  
+  isLoading = true;
+  loadingSpinner.style.display = "block";
+  
+  // Simulate small delay for animation visibility
+  setTimeout(() => {
+    const nextIndex = displayedCount + ITEMS_PER_LOAD;
+    const eventsToAdd = allEvents.slice(displayedCount, nextIndex);
+    
+    eventsToAdd.forEach(createCard);
+    displayedCount = nextIndex;
+    isLoading = false;
+    loadingSpinner.style.display = "none";
+  }, 300);
+}
+
+/**
+ * Check if user has scrolled near the bottom and load more if needed.
+ */
+function handleScroll() {
+  const scrollTop = window.scrollY;
+  const windowHeight = window.innerHeight;
+  const documentHeight = document.documentElement.scrollHeight;
+  
+  // Load more when user is 300px from bottom
+  if (scrollTop + windowHeight >= documentHeight - 300) {
+    loadMoreEvents();
+  }
+}
+
 // initialize when DOM is ready
 document.addEventListener("DOMContentLoaded", async () => {
   const events = await fetchEvents();
   if (events.length) {
-    const sorted = sortCards(events);
-    sorted.forEach(createCard);
+    allEvents = sortCards(events);
+    loadMoreEvents();
+    window.addEventListener("scroll", handleScroll);
   }
 });
 })();
