@@ -755,7 +755,7 @@
         "website": "https://atlasrotary.org"
       },
       "location": {
-        "address": "Ataşehir",
+        "address": "",
         "mapEmbedSrc": ""
       },
       "heroImage": "images/etkinlikler/cndn.jpg",
@@ -807,7 +807,7 @@
         "website": "https://atlasrotary.org"
       },
       "location": {
-        "address": "Ataşehir",
+        "address": "Çorlu",
         "mapEmbedSrc": ""
       },
       "heroImage": "images/etkinlikler/gelecek-donem-baskanlar.jpg",
@@ -837,6 +837,355 @@
         "title": "İstanbul Atlas Rotary Kulübü Gelecek Dönem Başkanlar Eğitimi - (Çorlu)",
         "description": "İstanbul Atlas Rotary Kulübü Gelecek Dönem Başkanlar Eğitimi - (Çorlu)",
         "keywords": ["İstanbul Atlas Rotary Kulübü Gelecek Dönem Başkanlar Eğitimi - (Çorlu)"]
+      }
+    },
+    {
+      "id": 16,
+      "title": "İstanbul Atlas Rotary Kulübü İlk Asamble - Genel Kurul Toplantısı Marmara Yelken Kulübü",
+      "slug": "ilk-asamble",
+      "status": "active",
+      "date": {
+        "day": "2",
+        "month": "Aralık",
+        "year": "2025",
+        "time": "19:00 – 21:30"
+      },
+      "category": "Etkinlik",
+      "organizer": "İstanbul Atlas Rotary Kulübü, Kadıköy Belediyesi",
+      "contact": {
+        "phone": "+90 530 830 53 03",
+        "website": "https://atlasrotary.org"
+      },
+      "location": {
+        "address": "Marmara Yelken Kulübü",
+        "mapEmbedSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.80712681744!2d29.063772087692755!3d40.96380389750252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab875974b644b%3A0x5d3710a014bfcb99!2sMarmara%20Yelken%20Kul%C3%BCb%C3%BC!5e0!3m2!1str!2str!4v1769189624156!5m2!1str!2str\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\""
+      },
+      "heroImage": "images/etkinlikler/ilk-asamble.jpg",
+      "gallery": ["images/etkinlikler/ilk-asamble.jpg"],
+
+      "content": [
+        {
+          "heading": "İstanbul Atlas Rotary Kulübü İlk Asamble - Genel Kurul Toplantısı Marmara Yelken Kulübü",
+          "paragraphs": ["Atlas Rotary Kulübü İlk Asamblesini Gerçekleştirdi. Asambleye katılarak bizleri onurlandıran;","Sayın Guvernör Yardımcımız Serhad Bil’e, paylaştığı değerli görüşler ve yol gösterici katkıları için teşekkür ederiz. ","Asamble sonrasında kulübümüzün Genel Kurul Toplantısını gerçekleştirdik."]
+        },
+
+        {
+          "heading": "Rezavasyon için;",
+          "paragraphs": ["İstanbul Atlas Rotary Kulübü Derneği,", "İşbankası Selamiçeşme Şb, İstanbul", "TR70 0006 4000 0011 1080 8264 87"]
+        }
+      ],
+      "sidebar": {
+        "title": "İstanbul Atlas Rotary Kulübü ",
+        "items": [
+          { "label": "Saat", "value": "19:30 – 21:30" },
+          { "label": "Tarih", "value": "2 Aralık 2025" },
+          { "label": "Kategori", "value": "Müzik, Dans, Defile, Gösteri" }
+        ]
+      },
+      "seo": {
+        "title": "İstanbul Atlas Rotary Kulübü İlk Asamble - Genel Kurul Toplantısı Marmara Yelken Kulübü",
+        "description": "İstanbul Atlas Rotary Kulübü İlk Asamble - Genel Kurul Toplantısı Marmara Yelken Kulübü",
+        "keywords": ["İstanbul Atlas Rotary Kulübü İlk Asamble - Genel Kurul Toplantısı Marmara Yelken Kulübü"]
+      }
+    },
+    {
+      "id": 17,
+      "title": "Atlas Rotary Kulübü Charter Belgemizi Aldık",
+      "slug": "charter-belgesi",
+      "status": "active",
+      "date": {
+        "day": "6",
+        "month": "Aralık",
+        "year": "2025",
+        "time": "19:00 – 21:30"
+      },
+      "category": "Etkinlik",
+      "organizer": "İstanbul Atlas Rotary Kulübü, Kadıköy Belediyesi",
+      "contact": {
+        "phone": "+90 530 830 53 03",
+        "website": "https://atlasrotary.org"
+      },
+      "location": {
+        "address": "Bölge Ofisi",
+        "mapEmbedSrc": ""
+      },
+      "heroImage": "images/etkinlikler/charter-belgesi.jpg",
+      "gallery": ["images/etkinlikler/charter-belgesi.jpg","images/etkinlikler/charter-belgesi-2.jpg","images/etkinlikler/charter-belgesi-3.jpg"],
+
+      "content": [
+        {
+          "heading": "Atlas Rotary Kulübü Charter Belgemizi Aldık",
+          "paragraphs": [
+            " Aralık Ayı’nın 6.12.2025 tarihinde UR Bölge 2420 Ofisimizde, Moda Rotary Kulübü ev sahipliğinde ve Bölge Üyelik Hizmetleri Komitemizin koordinasyonunda Yeni Üye Uyum Semineri için bir araya geldik. Bu seminer, yeni üyelerin Rotary’nin değerlerini, hizmet anlayışını ve oluşturduğu toplumsal etkiyi yakından tanımalarını sağlamak üzere bizlere bilgiler verdi."
+          ]
+        },
+
+        {
+          "heading": "Rezavasyon için;",
+          "paragraphs": ["İstanbul Atlas Rotary Kulübü Derneği,", "İşbankası Selamiçeşme Şb, İstanbul", "TR70 0006 4000 0011 1080 8264 87"]
+        }
+      ],
+      "sidebar": {
+        "title": "İstanbul Atlas Rotary Kulübü ",
+        "items": [
+          { "label": "Saat", "value": "19:30 – 21:30" },
+          { "label": "Tarih", "value": "6 Aralık 2025" },
+          { "label": "Kategori", "value": "Müzik, Dans, Defile, Gösteri" }
+        ]
+      },
+      "seo": {
+        "title": "Atlas Rotary Kulübü Charter Belgemizi Aldık-Bölge Ofisi",
+        "description": "Atlas Rotary Kulübü Charter Belgemizi Aldık-Bölge Ofisi",
+        "keywords": ["Atlas Rotary Kulübü Charter Belgemizi Aldık-Bölge Ofisi"]
+      }
+    },
+    {
+      "id": 18,
+      "title": "Atlas Rotary Kulübü Genç  Üye Adaylarımız İle Fikir Toplantısı",
+      "slug": "fikir-toplantisi",
+      "status": "active",
+      "date": {
+        "day": "8",
+        "month": "Aralık",
+        "year": "2025",
+        "time": "19:00 – 21:30"
+      },
+      "category": "Etkinlik",
+      "organizer": "İstanbul Atlas Rotary Kulübü, Kadıköy Belediyesi",
+      "contact": {
+        "phone": "+90 530 830 53 03",
+        "website": "https://atlasrotary.org"
+      },
+      "location": {
+        "address": "Kadıköy",
+        "mapEmbedSrc": ""
+      },
+      "heroImage": "images/etkinlikler/fikir-toplantisi.jpg",
+      "gallery": ["images/etkinlikler/fikir-toplantisi.jpg"],
+
+      "content": [
+        {
+          "heading": "Atlas Rotary Kulübü Genç  Üye Adaylarımız İle Fikir Toplantısı",
+          "paragraphs": [
+            "Gençlerimizin fikirlerinden yararlanıyoruz. Katılan Rotaryenler Leyla Terzi,Yücel Çağdaş Turan, Selcan Arslan"
+          ]
+        },
+
+        {
+          "heading": "Rezavasyon için;",
+          "paragraphs": ["İstanbul Atlas Rotary Kulübü Derneği,", "İşbankası Selamiçeşme Şb, İstanbul", "TR70 0006 4000 0011 1080 8264 87"]
+        }
+      ],
+      "sidebar": {
+        "title": "İstanbul Atlas Rotary Kulübü ",
+        "items": [
+          { "label": "Saat", "value": "19:30 – 21:30" },
+          { "label": "Tarih", "value": "8 Aralık 2025" },
+          { "label": "Kategori", "value": "Müzik, Dans, Defile, Gösteri" }
+        ]
+      },
+      "seo": {
+        "title": "Atlas Rotary Kulübü Genç  Üye Adaylarımız İle Fikir Toplantısı-Kadıköy",
+        "description": "Atlas Rotary Kulübü Genç  Üye Adaylarımız İle Fikir Toplantısı-Kadıköy",
+        "keywords": ["Atlas Rotary Kulübü Genç  Üye Adaylarımız İle Fikir Toplantısı-Kadıköy"]
+      }
+    },
+    {
+      "id": 19,
+      "title": "Atlas Rotary Kulübü Çevrimiçi Toplantı",
+      "slug": "cevrimici-toplanti",
+      "status": "active",
+      "date": {
+        "day": "9",
+        "month": "Aralık",
+        "year": "2025",
+        "time": "19:00 – 21:30"
+      },
+      "category": "Etkinlik",
+      "organizer": "İstanbul Atlas Rotary Kulübü, Kadıköy Belediyesi",
+      "contact": {
+        "phone": "+90 530 830 53 03",
+        "website": "https://atlasrotary.org"
+      },
+      "location": {
+        "address": "Kadıköy",
+        "mapEmbedSrc": ""
+      },
+      "heroImage": "images/etkinlikler/cevrimici-toplanti.jpg",
+      "gallery": ["images/etkinlikler/cevrimici-toplanti.jpg","images/etkinlikler/cevrimici-toplanti-2.jpg","images/etkinlikler/cevrimici-toplanti-3.jpg"],
+
+      "content": [
+        {
+          "heading": "Atlas Rotary Kulübü Çevrimiçi Toplantı",
+          "paragraphs": ["Aralık Ayı’nın 8.12.2025 tarihinde kulübümüzün Kazım İşmen Anadolu Lisesi müdür yardımcısı Berna Demirkol ve iş kadını Esra Hanım ile gerçekleşen online toplantımız. Berna Hanımın okulunda teknoloji bağımlılığı, sağlık ve RYLA eğitimleri vermeyi planladık. " ," Aralık Ayı’nın 9.12.2025 tarihinde üyelerimiz Vildan Elmacıoğlu,İpek Elmacıoğlu Rotary Club de Barcelona Kulübünü ziyaret ederek Uluslararası Rotary dostluğuna güzel bir örnek sundu. ", " 1922 yılında kurulan ve 103 yıllık köklü bir geçmişe sahip olan Barcelona Rotary Kulübü, ziyaret sırasında kulübümüze bayraklarını hediye etti."]
+        },
+
+        {
+          "heading": "Rezavasyon için;",
+          "paragraphs": ["İstanbul Atlas Rotary Kulübü Derneği,", "İşbankası Selamiçeşme Şb, İstanbul", "TR70 0006 4000 0011 1080 8264 87"]
+        }
+      ],
+      "sidebar": {
+        "title": "İstanbul Atlas Rotary Kulübü ",
+        "items": [
+          { "label": "Saat", "value": "19:30 – 21:30" },
+          { "label": "Tarih", "value": "9 Aralık 2025" },
+          { "label": "Kategori", "value": "Müzik, Dans, Defile, Gösteri" }
+        ]
+      },
+      "seo": {
+        "title": "Atlas Rotary Kulübü Çevrimiçi Toplantı",
+        "description": "Atlas Rotary Kulübü Çevrimiçi Toplantı",
+        "keywords": ["Atlas Rotary Kulübü Çevrimiçi Toplantı"]
+      }
+    },
+    {
+      "id": 20,
+      "title": "Atlas Rotary Kulübü Olağan Toplantısı",
+      "slug": "aralik-toplanti",
+      "status": "active",
+      "date": {
+        "day": "9",
+        "month": "Aralık",
+        "year": "2025",
+        "time": "19:00 – 21:30"
+      },
+      "category": "Etkinlik",
+      "organizer": "İstanbul Atlas Rotary Kulübü, Kadıköy Belediyesi",
+      "contact": {
+        "phone": "+90 530 830 53 03",
+        "website": "https://atlasrotary.org"
+      },
+      "location": {
+        "address": "Marmara Yelken Kulübü",
+        "mapEmbedSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.80712681744!2d29.063772087692755!3d40.96380389750252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab875974b644b%3A0x5d3710a014bfcb99!2sMarmara%20Yelken%20Kul%C3%BCb%C3%BC!5e0!3m2!1str!2str!4v1769189624156!5m2!1str!2str\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\""
+      },
+      "heroImage": "images/etkinlikler/aralik-toplanti.jpg",
+      "gallery": ["images/etkinlikler/aralik-toplanti.jpg"],
+
+      "content": [
+        {
+          "heading": "Atlas Rotary Kulübü Olağan Toplantısı",
+          "paragraphs": [
+            " 9.12.2025 tarihinde kulübümüzün olağan toplantısını gerçekleştirdik. Kulübümüz tarafından yürütülmesi planlanan sosyal sorumluluk projeleri kapsamındaki çalışmalarımızın hayata geçirilmesi konusunda görüştük ve kararlar aldık."
+          ]
+        },
+
+        {
+          "heading": "Rezavasyon için;",
+          "paragraphs": ["İstanbul Atlas Rotary Kulübü Derneği,", "İşbankası Selamiçeşme Şb, İstanbul", "TR70 0006 4000 0011 1080 8264 87"]
+        }
+      ],
+      "sidebar": {
+        "title": "İstanbul Atlas Rotary Kulübü ",
+        "items": [
+          { "label": "Saat", "value": "19:30 – 21:30" },
+          { "label": "Tarih", "value": "9 Aralık 2025" },
+          { "label": "Kategori", "value": "Müzik, Dans, Defile, Gösteri" }
+        ]
+      },
+      "seo": {
+        "title": "Atlas Rotary Kulübü Olağan Toplantısı",
+        "description": "Atlas Rotary Kulübü Olağan Toplantısı",
+        "keywords": ["Atlas Rotary Kulübü Olağan Toplantısı"]
+      }
+    },
+    {
+      "id": 21,
+      "title": "Atlas Rotary Kulübü Ocakbaşı Etkinliği - Abacı Ailesine Konuk Olduk",
+      "slug": "abaci-ailesi",
+      "status": "active",
+      "date": {
+        "day": "14",
+        "month": "Aralık",
+        "year": "2025",
+        "time": "19:00 – 21:30"
+      },
+      "category": "Etkinlik",
+      "organizer": "İstanbul Atlas Rotary Kulübü, Kadıköy Belediyesi",
+      "contact": {
+        "phone": "+90 530 830 53 03",
+        "website": "https://atlasrotary.org"
+      },
+      "location": {
+        "address": "",
+        "mapEmbedSrc": ""
+      },
+      "heroImage": "images/etkinlikler/abaci-ailesi.jpg",
+      "gallery": ["images/etkinlikler/abaci-ailesi.jpg"],
+
+      "content": [
+        {
+          "heading": "Atlas Rotary Kulübü Ocakbaşı Etkinliği - Abacı Ailesine Konuk Olduk",
+          "paragraphs": ["Kulübümüzün ilk Ocakbaşı etkinliğini Sevgili Abacı ailesinin evinde gerçekleştirdik. Aday üyelerimiz de etkinliğimize katıldı. Kulüp üyelerimizin bir arada olduğu keyifli bir gün geçirdik."]
+        },
+
+        {
+          "heading": "Rezavasyon için;",
+          "paragraphs": ["İstanbul Atlas Rotary Kulübü Derneği,", "İşbankası Selamiçeşme Şb, İstanbul", "TR70 0006 4000 0011 1080 8264 87"]
+        }
+      ],
+      "sidebar": {
+        "title": "İstanbul Atlas Rotary Kulübü ",
+        "items": [
+          { "label": "Saat", "value": "19:30 – 21:30" },
+          { "label": "Tarih", "value": "14 Aralık 2025" },
+          { "label": "Kategori", "value": "Müzik, Dans, Defile, Gösteri" }
+        ]
+      },
+      "seo": {
+        "title": "Atlas Rotary Kulübü Ocakbaşı Etkinliği - Abacı Ailesine Konuk Olduk",
+        "description": "Atlas Rotary Kulübü Ocakbaşı Etkinliği - Abacı Ailesine Konuk Olduk",
+        "keywords": ["Atlas Rotary Kulübü Ocakbaşı Etkinliği - Abacı Ailesine Konuk Olduk"]
+      }
+    },
+    {
+      "id": 22,
+      "title": "Atlas Rotary Kulübü Dönemin Yarıyıl Değerlendirilmesi",
+      "slug": "yariyil-degerlendirmesi",
+      "status": "active",
+      "date": {
+        "day": "17",
+        "month": "Aralık",
+        "year": "2025",
+        "time": "19:00 – 21:30"
+      },
+      "category": "Etkinlik",
+      "organizer": "İstanbul Atlas Rotary Kulübü, Kadıköy Belediyesi",
+      "contact": {
+        "phone": "+90 530 830 53 03",
+        "website": "https://atlasrotary.org"
+      },
+      "location": {
+        "address": "",
+        "mapEmbedSrc": ""
+      },
+      "heroImage": "images/etkinlikler/yariyil-degerlendirmesi.jpg",
+      "gallery": ["images/etkinlikler/yariyil-degerlendirmesi.jpg"],
+
+      "content": [
+        {
+          "heading": "Atlas Rotary Kulübü Dönemin Yarıyıl Değerlendirilmesi",
+          "paragraphs": [" Dönemin yarıyıl değerlendirilmesi Guvernör Yardımcımız Serhad Bil’in ofisinde Tutku Grubu Başkanları katılımları ile gerçekleşti."]
+        },
+
+        {
+          "heading": "Rezavasyon için;",
+          "paragraphs": ["İstanbul Atlas Rotary Kulübü Derneği,", "İşbankası Selamiçeşme Şb, İstanbul", "TR70 0006 4000 0011 1080 8264 87"]
+        }
+      ],
+      "sidebar": {
+        "title": "İstanbul Atlas Rotary Kulübü ",
+        "items": [
+          { "label": "Saat", "value": "19:30 – 21:30" },
+          { "label": "Tarih", "value": "17 Aralık 2025" },
+          { "label": "Kategori", "value": "Müzik, Dans, Defile, Gösteri" }
+        ]
+      },
+      "seo": {
+        "title": "Atlas Rotary Kulübü Dönemin Yarıyıl Değerlendirilmesi",
+        "description": "Atlas Rotary Kulübü Dönemin Yarıyıl Değerlendirilmesi",
+        "keywords": ["Atlas Rotary Kulübü Dönemin Yarıyıl Değerlendirilmesi"]
       }
     }
   ]
