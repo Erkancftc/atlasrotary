@@ -6,7 +6,6 @@
 
 const blogContent = document.querySelector(".blog-content-wrap");
 const EVENTS_URL = "data/events.json";
-
 /**
  * Fetch events.json and return array of event objects.
  * @returns {Promise<Array>} events
@@ -29,6 +28,7 @@ async function fetchEvents() {
 
 
 function createCard(ev) {
+  console.log(ev.id);
   const card = document.createElement("div");
   card.className = "col-lg-4";
   card.innerHTML = `
@@ -61,14 +61,28 @@ function createCard(ev) {
 
 
 /**
- * Sort an array of events by date (ascending).
+ * Sort an array of events by date (descending - closest dates first).
  * @param {Array} events
  */
 function sortCards(events) {
+  const monthMap = {
+    "Ocak": 1, "Şubat": 2, "Mart": 3, "Nisan": 4,
+    "Mayıs": 5, "Haziran": 6, "Temmuz": 7, "Ağustos": 8,
+    "Eylül": 9, "Ekim": 10, "Kasım": 11, "Aralık": 12
+  };
+
   return events.slice().sort((a, b) => {
-    const da = new Date(`${a.date.month} ${a.date.day}, ${a.date.year}`);
-    const db = new Date(`${b.date.month} ${b.date.day}, ${b.date.year}`);
-    return da - db;
+    const yearA = parseInt(a.date.year);
+    const yearB = parseInt(b.date.year);
+    if (yearA !== yearB) return yearB - yearA;
+
+    const monthA = monthMap[a.date.month] || 0;
+    const monthB = monthMap[b.date.month] || 0;
+    if (monthA !== monthB) return monthB - monthA;
+
+    const dayA = parseInt(a.date.day);
+    const dayB = parseInt(b.date.day);
+    return dayB - dayA;
   });
 }
 
@@ -80,4 +94,4 @@ document.addEventListener("DOMContentLoaded", async () => {
     sorted.forEach(createCard);
   }
 });
-})
+})();
