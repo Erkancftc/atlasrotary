@@ -2384,11 +2384,29 @@ a:hover {
 .causes-area .blog-content-wrap {
   margin-top: 51px;
 }
+.causes-area .blog-content-wrap .col-lg-4 {
+  display: flex;
+  align-items: stretch;
+}
+.causes-area .blog-content-wrap .blog-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
 .causes-area .blog-content-wrap .blog-content .blog-item {
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 .causes-area .blog-content-wrap .blog-content .blog-item .blog-img {
   position: relative;
+}
+.causes-area .blog-content-wrap .blog-content .blog-item .blog-inner-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
 }
 .causes-area .blog-content-wrap .blog-content .blog-item .blog-img .blog__tag {
   position: absolute;

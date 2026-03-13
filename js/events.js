@@ -12,6 +12,27 @@ let allEvents = [];
 let displayedCount = 0;
 let isLoading = false;
 
+// Hint shown when more cards can be loaded by scrolling
+const loadMoreHint = document.createElement("div");
+loadMoreHint.className = "load-more-hint";
+loadMoreHint.textContent = "Daha fazla etkinlik görmek için sayfayı aşağı kaydırın.";
+loadMoreHint.style.display = "none";
+
+if (blogContent && blogContent.parentNode) {
+  blogContent.parentNode.appendChild(loadMoreHint);
+}
+
+function updateLoadMoreHint() {
+  if (!loadMoreHint) return;
+  // Hide hint while loading or when all events are already displayed.
+  if (isLoading || displayedCount >= allEvents.length) {
+    loadMoreHint.style.display = "none";
+    return;
+  }
+
+  loadMoreHint.style.display = "block";
+}
+
 // Create loading spinner
 const loadingSpinner = document.createElement("div");
 loadingSpinner.id = "events-loading-spinner";
@@ -79,6 +100,15 @@ style.textContent = `
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  .load-more-hint {
+    margin: 25px auto 0;
+    text-align: center;
+    color: #424242;
+    font-weight: 600;
+    font-size: 14px;
+    max-width: 500px;
   }
 `;
 document.head.appendChild(style);
@@ -179,6 +209,7 @@ function loadMoreEvents() {
     displayedCount = nextIndex;
     isLoading = false;
     loadingSpinner.style.display = "none";
+    updateLoadMoreHint();
   }, 300);
 }
 
@@ -202,6 +233,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (events.length) {
     allEvents = sortCards(events);
     loadMoreEvents();
+    updateLoadMoreHint();
     window.addEventListener("scroll", handleScroll);
   }
 });
